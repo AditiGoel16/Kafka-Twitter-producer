@@ -42,10 +42,7 @@ class TweeterStreamListener(tweepy.StreamListener):
 if __name__ == '__main__':
 
     print "Initializing Tweeter stream"
-    consumer_key = 'vRThG2kPUxonACAgeI1Hfi2je'
-    consumer_secret = '5rcsLmZWeLSDzJUiqQTrEBywCNVafnkSugTB1Qcj4ofqPMHRq9'
-    access_token = '1431058350-s7chaBxi96ohsO41Shcdj8xY6zWSaP0fuY1arfI'
-    access_token_secret = 'W74lT1eUNI8BUUBrKUXC2fk4E00I6bX6NTXezxAeYrunU'
+   
 
     # Create Auth object
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
